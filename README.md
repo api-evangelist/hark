@@ -42,5 +42,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hark is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/hark_stock/
+Hark is an artificial intelligence lab founded in 2025 by Brett Adcock (founder of Figure AI and
+Archer Aviation) and headquartered in San Jose, California, building agentic multimodal foundation
+models paired with purpose-built, AI-native consumer hardware meant to act as a universal interface
+between a person and their digital life. Hark emerged from stealth in March 2026 and announced a
+Series A of more than $700 million at a $6 billion post-money valuation in May 2026.
+
+As of August 2026 Hark is **pre-product**: the platform is in closed beta behind a request-access
+form, and Hark publishes no developer portal, no developer documentation, no public API, no SDKs and
+no machine-readable contract (OpenAPI, AsyncAPI, GraphQL, MCP or A2A) on any host it operates. The
+probes that established this are recorded in `well-known/hark-well-known.yml`.
+
+> **Name disambiguation.** This profile is **hark.com**, the Brett Adcock AI lab. It is *not*
+> **hark.eco** (energy/IoT monitoring, which does operate `api.hark.eco` and `docs.hark.eco`) and
+> *not* **gethark.ai** (AI decision-intelligence middleware). Those are unrelated companies that
+> share the name and must not be harvested into this repository.
+
+- https://hark.com/
+- https://forgeglobal.com/hark_stock/ (secondary-market listing this profile was sourced from)

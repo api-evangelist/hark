@@ -1,17 +1,38 @@
 aid: hark
 name: Hark
-description: 'Hark is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Hark is an artificial intelligence lab founded in 2025 by Brett Adcock
+  (founder of Figure AI and Archer Aviation) and headquartered in San Jose, California,
+  building what it calls "the most advanced personal intelligence in the world" — proprietary
+  agentic, multimodal foundation models paired with purpose-built, AI-native consumer
+  hardware intended to act as a universal interface between a person and their digital
+  life, with speech, text, vision and persistent personal memory. The company emerged
+  from roughly eight months of stealth in March 2026 and announced a Series A of more
+  than $700 million at a $6 billion post-money valuation in May 2026, led by Parkway
+  Venture Capital with participation from NVIDIA, AMD Ventures, Intel Capital, Qualcomm
+  Ventures, Salesforce Ventures, ARK Invest, Brookfield, Greycroft, Align Ventures,
+  Prime Movers Lab and Tamarack Global. As of August 2026 Hark is pre-product: the
+  platform is in closed beta behind a request-access form, and the company publishes
+  no developer portal, no developer documentation, no public API, no SDKs and no machine-readable
+  contract of any kind on its own hosts. hark.com is a four-page marketing site (home,
+  careers, privacy policy, and a single announcement article).'
 url: https://raw.githubusercontent.com/api-evangelist/hark/refs/heads/main/apis.yml
+image: https://cdn.sanity.io/images/w2mhvsaj/production/6dd31643694b8c3c04116527a6961262a2ab04a2-1200x630.jpg?fm=webp&w=1200&q=75
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Foundation Models
+- Agents
+- Consumer Hardware
+- Consumer Electronics
+- Devices
+- Assistants
+- Pre-Product
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +41,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://hark.com/
+- type: Careers
+  url: https://hark.com/careers
+- type: SignUp
+  url: https://hark.com/#sign-up
+- type: TermsOfService
+  url: https://hark.com/terms
+- type: PrivacyPolicy
+  url: https://hark.com/privacy-policy
+- type: News
+  url: https://hark.com/articles/hark-announces-usd700-million-fundraising-round
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hark-ai
+- type: Twitter
+  url: https://x.com/hark_labs
+- type: Instagram
+  url: https://www.instagram.com/hark_labs
+- type: SecondaryMarket
   url: https://forgeglobal.com/hark_stock/
+- type: DomainSecurity
+  url: security/hark-domain-security.yml
+- type: LLMsTxt
+  url: llms/hark-llms.txt
+x-enrichment:
+  date: '2026-08-04'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

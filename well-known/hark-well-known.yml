@@ -1,0 +1,57 @@
+generated: '2026-08-04'
+method: probed
+source: live HTTP probe of every Hark host discovered from apis.yml, DNS and the hark.com markup
+note: >-
+  Hark publishes no developer portal, no developer documentation and no public API,
+  so there is no API host to probe beyond the marketing site itself. Every
+  /.well-known/* path on hark.com returns a real HTTP 404 with the Next.js
+  not-found HTML shell — no security.txt, no OIDC/OAuth metadata, no api-catalog,
+  no ai-plugin.json, no A2A agent card. The candidate developer hosts
+  (api.hark.com, docs.hark.com, developer.hark.com, developers.hark.com) do not
+  resolve in DNS at all. These misses are recorded so a later run does not
+  re-litigate them. NOTE: hark.com is the Brett Adcock AI lab founded in 2025; it
+  is NOT hark.eco (energy/IoT monitoring, which does run api.hark.eco), and it is
+  NOT gethark.ai (decision-intelligence middleware). Those are unrelated
+  companies that share the name and must not be harvested into this repo.
+hosts:
+- host: https://hark.com
+  role: corporate marketing site (Next.js on Vercel, Sanity CMS)
+  resolves: true
+  documents:
+  - path: /.well-known/security.txt
+    spec: RFC 9116
+    status: 404
+  - path: /.well-known/openid-configuration
+    spec: OpenID Connect Discovery 1.0
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    spec: RFC 8414
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    spec: RFC 9728
+    status: 404
+  - path: /.well-known/api-catalog
+    spec: RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    spec: OpenAI plugin manifest
+    status: 404
+  - path: /.well-known/agent-card.json
+    spec: A2A 1.0.0 Agent Card
+    status: 404
+  - path: /.well-known/agent.json
+    spec: A2A pre-0.3 legacy Agent Card
+    status: 404
+unresolved_hosts:
+- host: api.hark.com
+  dns: NXDOMAIN
+- host: docs.hark.com
+  dns: NXDOMAIN
+- host: developer.hark.com
+  dns: NXDOMAIN
+- host: developers.hark.com
+  dns: NXDOMAIN
+x-evidence:
+  fetched: '2026-08-04'
+  method: curl -sIL per path, status recorded verbatim
+  hits: 0
