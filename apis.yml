@@ -27,6 +27,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://cdn.sanity.io/images/w2mhvsaj/production/6dd31643694b8c3c04116527a6961262a2ab04a2-1200x630.jpg?fm=webp&w=1200&q=75
 x-type: company
 x-source: harvest:secondary-market
