@@ -48,7 +48,7 @@ modified: '2026-08-04'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Agents
 - Consumer Hardware
@@ -67,6 +67,7 @@ tags_raw:
 - Devices
 - Assistants
 - Pre-Product
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
