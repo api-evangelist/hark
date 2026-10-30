@@ -64,21 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hark is an artificial intelligence lab founded in 2025 by Brett Adcock (founder of Figure AI and
-Archer Aviation) and headquartered in San Jose, California, building agentic multimodal foundation
-models paired with purpose-built, AI-native consumer hardware meant to act as a universal interface
-between a person and their digital life. Hark emerged from stealth in March 2026 and announced a
-Series A of more than $700 million at a $6 billion post-money valuation in May 2026.
+Hark is an artificial intelligence lab founded in 2025 by Brett Adcock (founder of Figure AI and Archer Aviation) and headquartered in San Jose, California, building what it calls "the most advanced personal intelligence in the world" — proprietary agentic, multimodal foundation models paired with purpose-built, AI-native consumer hardware intended to act as a universal interface between a person and their digital life, with speech, text, vision and persistent personal memory. The company emerged from roughly eight months of stealth in March 2026 and announced a Series A of more than $700 million at a $6 billion post-money valuation in May 2026, led by Parkway Venture Capital with participation from NVIDIA, AMD Ventures, Intel Capital, Qualcomm Ventures, Salesforce Ventures, ARK Invest, Brookfield, Greycroft, Align Ventures, Prime Movers Lab and Tamarack Global. As of August 2026 Hark is pre-product: the platform is in closed beta behind a request-access form, and the company publishes no developer portal, no developer documentation, no public API, no SDKs and no machine-readable contract of any kind on its own hosts. hark.com is a four-page marketing site (home, careers, privacy policy, and a single announcement article).
 
-As of August 2026 Hark is **pre-product**: the platform is in closed beta behind a request-access
-form, and Hark publishes no developer portal, no developer documentation, no public API, no SDKs and
-no machine-readable contract (OpenAPI, AsyncAPI, GraphQL, MCP or A2A) on any host it operates. The
-probes that established this are recorded in `well-known/hark-well-known.yml`.
+**Areas:** Company · Artificial Intelligence · Machine Learning · Foundation Models · Agents · Consumer Hardware · Consumer Electronics · Devices · Assistant · Pre-Product
 
-> **Name disambiguation.** This profile is **hark.com**, the Brett Adcock AI lab. It is *not*
-> **hark.eco** (energy/IoT monitoring, which does operate `api.hark.eco` and `docs.hark.eco`) and
-> *not* **gethark.ai** (AI decision-intelligence middleware). Those are unrelated companies that
-> share the name and must not be harvested into this repository.
+## Hark on APIs.io
 
-- https://hark.com/
-- https://forgeglobal.com/hark_stock/ (secondary-market listing this profile was sourced from)
+Everything profiled for Hark is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hark/](https://apis.io/providers/hark/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hark Domain Security](https://apis.io/security/hark/hark-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hark.com/)
+- [Sign up](https://hark.com/#sign-up)
+- [Terms of service](https://hark.com/terms)
+- [Privacy policy](https://hark.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hark/](https://apis.io/providers/hark/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hark: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hark/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
